@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.container {
+  width: 240px;
+  position: absolute;
+
+  p {
+    position: absolute;
+    top: 14%;
+    left: 30%;
+    color: white;
+    font-size: 40px;
+  }
+}
+img {
+  width: 100%;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 15px 30px;
+  color: black;
+}
+.powerup-display {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  display: none;
+}
