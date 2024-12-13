@@ -40,8 +40,8 @@ An immersive 3D maze navigation game built with Three.js, offering a challenging
 
 ### Clone the Repository
 ```bash
-git clone https://your-github-repository-url.git
-cd maze-game
+git clone gh repo clone Pavan0922/3D_MAZE_RUNNER_GAME
+cd 3D_MAZE_RUNNER_GAME
 ```
 
 ### Install Dependencies
@@ -99,10 +99,13 @@ maze-game/
 ├── index.html         # Main HTML file
 ├── main.js            # Primary game logic
 ├── style.css          # Styling
-├── public/            # Static assets
+├── 3D_models/            # Static assets
 │   ├── Final_Maze.glb
+│   ├── Maze_Map.glb
+├── Audio/            # Audio
 │   ├── backgroundsound.mp3
-│   └── wood.png
+├── images/            # Image
+│   ├── backgroundsound.mp3
 └── README.md          # Project documentation
 ```
 
@@ -120,33 +123,18 @@ maze-game/
 - Check browser console for errors
 - Verify browser WebGL support
 - Confirm Node.js and npm are up to date
+- The Audio may not work on some browsers
 
-### Common Issues
-- Missing dependencies: Run `npm install`
-- Rendering problems: Update graphics drivers
-- Performance lag: Close other resource-intensive applications
-
-## 📝 License
-
-[Your License Here - e.g., MIT License]
 
 ## 👤 Author
 
-[Your Name]
-[Your Contact Information]
+[Pavan Kumar BM]
+[aioc092235@gmail.com]
 
 ## 🙏 Acknowledgments
 
 - Three.js Community
 - Vite Development Team
 - Any other resources or inspirations
+- The models are downloaded from free3d.com  
 ```
-
-Would you like me to explain or modify any part of the README?
-
-Key improvements in this version:
-1. More detailed technical breakdown
-2. Comprehensive troubleshooting section
-3. Clear project structure
-4. Expanded control and objective descriptions
-5. Potential future improvements
